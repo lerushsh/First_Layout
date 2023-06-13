@@ -1,0 +1,132 @@
+.block6{
+    background-color: #e5e5e5;
+    position: relative;
+    padding-bottom: 98px;
+}
+.block6__background{
+    background-color: white;
+    height: 497px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.background__block{
+    background-color: #f78300;
+    height: 599px;
+    width: 928px;
+    position: absolute;
+    z-index: 1;
+}
+.block6__img{
+    width: 884px;
+    height: 641px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 88px;
+    z-index: 2;
+}
+.block6__container{
+    display: flex;
+    position: relative;
+    z-index: 3;
+    margin-top: 20px;
+}
+.block6__container1{
+    background-color: #f78300;
+    padding: 30px;
+    flex: 0 0 auto;
+    width: 282px;
+}
+.block6__container2{
+    background-color: white;
+    padding: 30px;
+    max-width: 798px;
+}
+.container1__text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    display: block;
+}
+.container2__text{
+    margin-top: 35px;
+    font-size: 16px;
+}
+.container2__freepik{
+    margin-top: 19px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+@media (max-width: 1199px){
+    .background__block{
+        width: 832px;
+    }
+    .block6__img{
+        width: 860px;
+        height: 648px;
+        margin-right: 0;
+    }
+    .block6__container1{
+        width: auto;
+    }
+    .container1__text{
+        line-height: 100px;
+    }
+}
+@media (max-width: 991px){
+    .background__block{
+        width: 579px;
+        height: 555px;
+    }
+    .block6__img{
+        width: 589px;
+        height: 563px;
+        top: 60px;
+        margin-right: 53px;
+    }
+    .block6__container{
+        margin-top: 100px;
+    }
+    .container2__freepik{
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 767px){
+    .background__block{
+        width: 458px;
+        height: 533px;
+    }
+    .block6__img{
+        width: 470px;
+        height: 503px;
+        top: 70px;
+        margin-right: 0px;
+    }
+    .block6__container{
+        flex-direction: column;
+    }
+    .container1__text{
+        margin: 0;
+    }
+    .container2__freepik{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 575px){
+    .background__block{
+        width: 292px;
+        height: 350px;
+    }
+    .block6__img{
+        width: 286px;
+        height: 329px;
+        top: 60px;
+    }
+    .container1__text{
+        font-size: 24px;
+    }
+}

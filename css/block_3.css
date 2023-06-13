@@ -1,0 +1,97 @@
+.block3 {
+    content: '';
+    display: table;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/bf15ceba1ffc5b0fa9c292fc/dfsdfdf-min.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 40px;
+}
+.block3__article{
+    display: block;
+    margin: 267px auto 0;
+    text-align: center;
+    font-size: 72px;   
+}
+.block3__outgrid{
+    width: 981px;
+    margin: 108px auto 0;
+}
+.block3__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.block3__item{
+    text-align: center;
+    padding: 10px 20px;
+}
+.item__article{
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+.item__text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.block3__freepik{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.block3__link{
+    color: white;
+    text-decoration: underline white;
+}
+.block3__button:hover{
+    background-color: white;
+    color: black;
+}
+@media (max-width: 1199px){
+    .block3__outgrid{
+        width: 940px;
+    }
+}
+@media (max-width: 991px){
+    .block3__outgrid{
+        width: 720px;
+    }
+    .block3__grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .block3__article{
+        margin-top: 140px;   
+    }
+    .block3__button{
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 767px){
+    .block3__grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .block3__outgrid{
+        width: 540px;
+    }
+}
+@media (max-width: 575px){
+    .block3__article{
+        font-size: 48px;   
+    }
+    .block3__grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .block3__outgrid{
+        width: 340px;
+    }
+    .block3__button{
+        margin-bottom: 10px;
+    }
+    .block3__freepik{
+        margin-top: -30px;
+    }
+}
